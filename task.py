@@ -4,6 +4,7 @@ response=requests.get('https://api.covid19api.com/summary')
 
 data=response.json()
 my_data=data['Countries']
+list_for=[]
 # print(my_data)
 check=2
 my_dic={}
