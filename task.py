@@ -3,7 +3,8 @@ import requests
 response=requests.get('https://api.covid19api.com/summary')
 
 data=response.json()
-list_for_git=[]
+
+check_liist=[]
 my_data=data['Countries']
 list_for=[]
 # print(my_data)
