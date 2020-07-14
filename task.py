@@ -2,7 +2,7 @@ import requests
 
 response=requests.get('https://api.covid19api.com/summary')
 
-data=response.json() #asdasd
+data=response.json() #asdasdbdaskdjasd
 my_data=data['Countries']
 # print(my_data)
 check=2
